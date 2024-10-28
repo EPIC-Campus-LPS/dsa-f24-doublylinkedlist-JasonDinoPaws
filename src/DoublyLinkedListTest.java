@@ -21,6 +21,12 @@ class DoublyLinkedListTest {
     }
 
     @Test
+    void TestMain()
+    {
+        Main.main(new String[]{});
+    }
+    
+    @Test
     void testAdd() {
         add();
         System.out.println("TestAdd");
